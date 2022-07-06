@@ -1,0 +1,16 @@
+# reference gene fasta (to build pHMM)
+refGene_Dir: "config/referenceGeneFiles"
+
+# HMM profiles
+profileHMM_Dir: "config/profileHMMs"
+
+# prodigal output directories
+geneCoordDir: "workflow/out/prodigal/geneCoord"
+proteinSeqDir: "workflow/out/prodigal/proteinSeq"
+
+# location of strain genomes
+ntGenomeDir: "config/strain_genomes"
+
+# local directories
+hmmerEnv: "../../workflow/envs/hmmer_local.yml"
+prodigalEnv: "../../workflow/envs/prodigal_local.yml"
